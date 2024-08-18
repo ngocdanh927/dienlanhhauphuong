@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+:root {
+    --color-one : #292f45;
+    --color-two : #ea6f66;
+    --color-three: #eaeff9;
+    --font: "Wix Madefor Text", sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.font{
+    font-family:var(--font)
+}
+.button{
+    border: 0;
+    background-color: var(--color-two);
+    padding: 10px 20px;
+    font: var(--font);
+    margin-top: 20px;
+    transition: all 0.25s;
+}
+.button:hover{
+    color: white;
+    background-color: var(--color-one);
+
+}
